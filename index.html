@@ -197,10 +197,11 @@ I collaborate with your team to write, test, and improve code on a daily basis, 
 		</div>
 		<div class="col-sm-10 grid_2">
 		   <h3>Say hello!</h3>
-	       <form>
-			 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-			 <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-			 <textarea value="Message" onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+	       <form action="https://formspree.io/franklineomollo@gmail.com"
+      method="POST">
+			 <input type="text" class="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+			 <input type="text" class="text" value="E-mail" name="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+			 <textarea value="Message" name="message" onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
 			 <input type="submit" value="Send Message">
 		  </form>
 	    </div>
